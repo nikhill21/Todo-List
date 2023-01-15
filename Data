@@ -1,0 +1,47 @@
+--------------------------------------------------------------------------------------------------------------------------
+Angular CLI:
+    -> utility, helps us to generate component,, facilities,, to develop angular app, we use angular CLI
+
+install angular CLI:
+        -> `npm install -g @angular/cli`            g-> global
+
+-> `ng new cwh-todo-list`
+-> `app.module.ts` entry point file
+
+--------------------------------------------------------------------------------------------------------------------------
+Bootstarp:
+-> install bootstarp in angular
+-> `npm install bootstrap`
+-> npm install jquery
+
+--------------------------------------------------------------------------------------------------------------------------
+Components
+-> `ng g c component_name`
+
+--------------------------------------------------------------------------------------------------------------------------
+Directives
+-> *ngFor (for loop )
+-> custom html attributes
+
+--------------------------------------------------------------------------------------------------------------------------
+`ng g c MyComponents/todo-item`
+--------------------------------------------------------------------------------------------------------------------------
+
+Event Emitter:
+-> An event emitter is a pattern that listens to a named event, fires a callback, then emits that event with a value. Sometimes this is referred to as a “pub/sub” model, or listener.
+-> make a new eventEmitter
+
+--------------------------------------------------------------------------------------------------------------------------
+Delete an item from an array in JS:
+-> we can use `splice` function but we have to find index first.
+-> 
+const index = this.todos.indexOf(todo)
+      this.todos.splice(index,1)
+
+--------------------------------------------------------------------------------------------------------------------------
+Deploying our App:
+-> `ng build --prod`
+-> production ke liye build kar dega
+
+--------------------------------------------------------------------------------------------------------------------------
+
